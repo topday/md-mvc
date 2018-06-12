@@ -1,0 +1,23 @@
+{
+  "name": "wireframe",
+  "version": "1.0.0",
+  "description": "wireframe your website and design online",
+  "main": "index.js",
+  "port": 9000,
+  "scripts": {
+    "watch-js": "./node_modules/nodemon/bin/nodemon.js .",
+    "watch-sass": "./node_modules/nodemon/bin/nodemon.js -e scss --watch public/css/sass -x \"sass public/css/sass/index.scss public/css/index.css\"",
+    "watch": "(npm run watch-js & npm run watch-sass)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Top Day",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "chokidar-cli": "^1.2.0",
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.0-beta4",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {}
+}
