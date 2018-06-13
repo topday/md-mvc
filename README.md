@@ -24,6 +24,14 @@ On browsers: localhost:9000
 # to access admin side web page
 On browsers: localhost:9000/admin/
 
+In node world it is important to know supporting node versions used to develop the framework:
+'''
+node -v # v10.2.1
+npm -v  # 5.6.0
+uname -a # 4.13.0-43-generic #48~16.04.1-Ubuntu 
+'''
+
+
 2018/06/12
 TBC ... 
 

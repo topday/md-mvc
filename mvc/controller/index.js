@@ -41,3 +41,5 @@ class IndexController extends Controller {
 
   }
 }
+
+module.exports = IndexController
