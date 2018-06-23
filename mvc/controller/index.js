@@ -2,8 +2,19 @@ const Controller = require('./../../lib/mvc/controller')
 
 class IndexController extends Controller {
   constructor() {
-
+    super()
     this.models = 'models'
+    const methods = Object.getOwnPropertyNames(this.constructor.prototype)
+
+
+    methods.forEach(method => {
+      const m =  this[method].toString()
+      let a = m.match(/^[a-z0-9 ]+\(([a-z, ]+)/i)
+      if (a) console.log(a, m)
+    })
+    console.log({methods})
+
+
   }
 
   indexAction() {
@@ -37,7 +48,7 @@ class IndexController extends Controller {
 
   }
 
-  putTestAction() {
+  putTestAction(param1, param2) {
 
   }
 }
