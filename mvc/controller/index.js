@@ -37,6 +37,12 @@ class IndexController extends Controller {
 
   argsAction(v, t) {
 
+    console.log(v, t)
+  }
+
+
+  renderCSVAction(sep = ',', data = [], fileName) {
+
   }
 
   // todo: implement http methods
