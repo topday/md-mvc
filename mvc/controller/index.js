@@ -17,7 +17,7 @@ class IndexController extends Controller {
 
   }
 
-  indexAction() {
+  indexAction () {
 
     return 'txt'
   }
@@ -35,12 +35,12 @@ class IndexController extends Controller {
     return {my: 'data'}
   }
 
-  argsAction(v, t) {
+  argsAction(v, t =',', a={}) {
 
   }
 
   // todo: implement http methods
-  getTestAction() {
+  getTestAction(scope = []) {
 
   }
 
@@ -49,6 +49,10 @@ class IndexController extends Controller {
   }
 
   putTestAction(param1, param2) {
+
+  }
+
+  paymentGatewayAction() {
 
   }
 }
