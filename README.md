@@ -19,7 +19,7 @@
 - [ ] Rich caching engine using the RAM memory under the patterns: *Press, Events, Blind*
 
 ## Business features 
- 1. Transperant RESTful url notation
+ 1. Transparent RESTful url notation
     - Example: http://localhost:9000/shop/tickets/cancelation/
       - On server: 
         - create file: `~/mvc/controller/shop/tickets.js` and create controller class as shown in `mvc/controller/index.js`
